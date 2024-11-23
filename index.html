@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main>
+<header>
+  <h2>Notifications<span id="coutner">3</span></h2>
+  <span id="mark" onclick="markAll()">Mark all as read</span>
+</header>
+<div class="box unread">
+  <img src="./assets/images/avatar-mark-webber.webp">
+  <div>
+    <h3><span class="name">Mark Webber</span>reacted to your recent post<span class="post">My first tournament today!</span></h3>
+    <span>1m ago</span>
+  </div>
+</div>
+<div class="box unread">
+  <img src="./assets/images/avatar-angela-gray.webp" alt="">
+  <div>
+    <h3><span class="name">Angela grayspan</span>followed you</h3>
+    <span>5m ago</span>
+  </div>
+</div>
+<div class="box unread">
+  <img src="./assets/images/avatar-jacob-thompson.webp">
+  <div>
+    <h3><span class="name">Jacob Thompson</span>has joined your group <a href="#">Chess Club</a></h3>
+    <span>1 day ago</span>
+  </div>
+</div>
+  <div class="box">
+    <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="">
+    <div>
+      <h3><span class="name">Rizky Hasanuddin</span>sent you a private message</h3>
+      <span>5 days ago</span>
+      <p> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+        I'm already having lots of fun and improving my game.</p>
+    </div>
+  </div>
+  <div class="box">
+    <img src="./assets/images/avatar-kimberly-smith.webp" alt="">
+    <div>
+      <h3><span class="name"> Kimberly Smith</span>ommented on your picture</h3>
+      <span>1 week ago</span>
+    </div>
+    <img src="./assets/images/image-chess.webp" alt="">
+  </div>
+  <div class="box">
+    <img src="./assets/images/avatar-nathan-peterson.webp" alt="">
+    <div>
+      <h3><span class="name">Nathan Peterson</span>Nathan Peterson reacted to your recent post <span class="post">5 end-game strategies to</span> increase your win rate
+      </h3>
+      <span>2 weeks ago</span>
+    </div>
+  </div>
+  <div class="box">
+    <img src="./assets/images/avatar-anna-kim.webp" alt="">
+    <div>
+      <h3><span class="name"> Anna Kim</span>left the group <a href="#">Chess Club</a>
+      </h3>
+      <span>2 weeks ago</span>
+    </div>
+  </div>
+</main>
+<script src="./main.js"></script>
+</body>
+</html>
